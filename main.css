@@ -1,0 +1,93 @@
+.navbar-custom {
+    background-color: #47a2f8;
+}
+
+.navbar-custom .navbar-brand {
+    color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #ee1616;
+    /* Üstüne gelince renk değiştirme */
+}
+
+.carousel-item {
+    transition: opacity 1s ease-in-out;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+    /* Ok renkleri */
+}
+
+.table-hover tbody tr:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Tablo üzerine gelince gölge */
+}
+
+.btn-custom {
+    background-color: #7edaf1;
+    /* Buton rengi */
+    border-color: #28a745;
+    /* Buton kenarlık rengi */
+}
+
+.footer-custom {
+    background-color: #fffb27;
+    /* Footer arka plan rengi */
+}
+
+.table-hover {
+    background-color: #7edaf1;
+}
+
+.social-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #000;
+}
+
+.search-bar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.collection-heading {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* Gölgeli yazı */
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Kartın büyümesi */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    /* Kart üzerine gelince gölge */
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input[type="text"] {
+    padding-left: 30px;
+}
+
+.search-box:before {
+    content: "Search";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+}
